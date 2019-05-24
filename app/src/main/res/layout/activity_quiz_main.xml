@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".QuizMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chatA1"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#F44336"
+                android:foreground="?attr/selectableItemBackground"
+                android:drawableTop="@drawable/beginner"
+                android:paddingTop="25dp"
+                android:text="Nivel A1"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/chatA2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:foreground="?attr/selectableItemBackground"
+                android:drawableTop="@drawable/beginner"
+                android:paddingTop="25dp"
+                android:text="Nivel A2"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chatB1"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF5722"
+                android:drawableTop="@drawable/media"
+                android:paddingTop="25dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:text="Nivel B1"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/chatB2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#4CAF50"
+                android:drawableTop="@drawable/media"
+                android:paddingTop="25dp"
+                android:text="Nivel B2"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chatC1"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:layout_margin="2dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_weight="1"
+                android:background="#E91E63"
+                android:drawableTop="@drawable/hard"
+                android:paddingTop="40dp"
+                android:text="Nivel C1"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/chatC2"
+                android:layout_width="0dp"
+                android:layout_height="200dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:background="#FF9800"
+                android:drawableTop="@drawable/hard"
+                android:paddingTop="40dp"
+                android:text="Nivel C2"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "956834905245",
+    "firebase_url": "https://sawa-f922b.firebaseio.com",
+    "project_id": "sawa-f922b",
+    "storage_bucket": "sawa-f922b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956834905245:android:f48bf37359c478a1",
+        "android_client_info": {
+          "package_name": "com.uber.sawa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956834905245-uo53vb3kg4bqg0i11acl5p0ng61qn81n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uber.sawa",
+            "certificate_hash": "6a4c22cc258240b47f37c7bcb829a5b992dd8f3c"
+          }
+        },
+        {
+          "client_id": "956834905245-5a076vvak8kblmapq4eam77jf4215rlh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjdGSiE1NDRKfZQn-5XfjQCbRCcU0t-b4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956834905245-5a076vvak8kblmapq4eam77jf4215rlh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

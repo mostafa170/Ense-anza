@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/facebook"
+                android:title="Facebook" />
+        <item
+                android:id="@+id/instagram"
+                android:icon="@drawable/instagram"
+                android:title="Instagram"/>
+        <item
+                android:id="@+id/twitter"
+                android:icon="@drawable/twitter"
+                android:title="Twitter"/>
+        <item
+                android:id="@+id/whatsapp"
+                android:icon="@drawable/whatsapp"
+                android:title="Whatsapp"/>
+        <item
+                android:id="@+id/mail"
+                android:icon="@drawable/iconsemail"
+                android:title="Email"/>
+        <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+
+        <item
+                android:id="@+id/location"
+                android:icon="@drawable/location"
+                android:title="Location" />
+
+        <item
+                android:id="@+id/call"
+                android:icon="@drawable/call"
+                android:title="Call"/>
+
+        <item
+                android:id="@+id/nav_rides"
+                android:icon="@drawable/edit"
+                android:title="Edit Profile" />
+
+        <item
+                android:icon="@drawable/out"
+                android:id="@+id/nav_signOut"
+                android:title="Sign Out" />
+    </group>
+</menu>

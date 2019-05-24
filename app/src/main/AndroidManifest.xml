@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uber.sawa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/zzz"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".home.ChatActivity"/>
+        <activity android:name=".home.test.ResultActivityB2" />
+        <activity android:name=".home.test.QuizActivityB2" />
+        <activity android:name=".QuizMainActivity" />
+        <activity android:name=".home.OtrosProyectosActivity" />
+        <activity android:name=".Gramatica.indicativo.FuturoCompuestoActivity" />
+        <activity android:name=".Gramatica.indicativo.FuturoActivity" />
+        <activity android:name=".Gramatica.indicativo.PreteritoPluscuamperfectoActivity" />
+        <activity android:name=".Gramatica.indicativo.PreteritoImperfectoActivity" />
+        <activity android:name=".Gramatica.indicativo.PreteritoIndefinidoActivity" />
+        <activity android:name=".Gramatica.indicativo.PreteritoPerfectoActivity" />
+        <activity android:name=".Gramatica.indicativo.PresenteDeIndicativoActivity" />
+        <activity android:name=".Gramatica.conificional.CondicionalCompuestoActivity" />
+        <activity android:name=".Gramatica.conificional.ConficionalSIMPLEActivity" />
+        <activity android:name=".Gramatica.ImperationActivity" />
+        <activity android:name=".Gramatica.SubjuntivoActivity" />
+        <activity android:name=".Gramatica.ModeCondicionalActivity" />
+        <activity android:name=".Gramatica.IndicativoActivity" />
+        <activity android:name=".home.GramaticaActivity" />
+        <activity android:name=".home.VocabularioActivity" />
+        <activity android:name=".home.VideosActivity" />
+        <activity android:name=".home.EventActivity" />
+        <activity android:name=".voc.FamiliaActivity" />
+        <activity android:name=".voc.CaracteresySentimientosActivity" />
+        <activity android:name=".voc.CortesíaYFuncionenSocialesActivity" />
+        <activity android:name=".voc.CuerpoActivity" />
+        <activity android:name=".voc.DatosPersonalesActivity" />
+        <activity android:name=".voc.DescribiendoGenteActivity" />
+        <activity android:name=".voc.MediosDeComunicaciónActivity" />
+        <activity android:name=".voc.SaludActivity" />
+        <activity
+            android:name=".home.EditProfileActivity"
+            android:label="Edit Profile"
+            android:parentActivityName=".MainPageActivity" />
+        <activity
+            android:name=".ResetPasswordActivity"
+            android:label="Edit Profile" />
+        <activity
+            android:name=".MainPageActivity"
+            android:label="@string/title_activity_main_page"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
